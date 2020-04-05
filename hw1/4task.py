@@ -2,7 +2,7 @@ numb = int(input("Введите положительное целое числ�
 
 r = -1
 
-while numb > 10:
+while numb > 0:
     d = numb % 10
     numb //=10
     if d > r:
